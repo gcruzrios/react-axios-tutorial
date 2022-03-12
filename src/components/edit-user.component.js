@@ -32,11 +32,11 @@ export default class EditUser extends Component {
                 name: res.data.name,
                 email: res.data.email 
             });
-            this.state = {
-                id:res.data._id,
-                name: res.data.name,
-                email: res.data.email
-            }
+            // this.state = {
+            //     id:res.data._id,
+            //     name: res.data.name,
+            //     email: res.data.email
+            // }
             console.log(this.state);
        
         })
